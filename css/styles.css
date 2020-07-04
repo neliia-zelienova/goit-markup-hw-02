@@ -70,7 +70,8 @@ body {
 }
 /* Hero */
 .hero-title {
-  color: var(--primary-bg-color);
+  /*После добавления изображения фона заменю на цвет из макета
+  color: var(--hero-headline-text-color);*/
   text-transform: uppercase;
 }
 
@@ -103,11 +104,13 @@ body {
 
 /* Activity */
 .activity .description {
-  color: var(--primary-bg-color);
+  /*После позиционирования заменю на белфй как в макете
+  color: #ffffff;*/
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* Team */
@@ -200,5 +203,7 @@ footer {
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
+  /*После позиционирования засеню на цвет из макета 
+  color: #ffffff;*/
   color: var(--primary-text-color);
 }
