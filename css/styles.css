@@ -203,7 +203,7 @@ footer {
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-  /*После позиционирования заvеню на цвет из макета
+  /*После позиционирования заменю на цвет из макета
   color: #ffffff;*/
   color: var(--primary-text-color);
 }
